@@ -64,11 +64,11 @@ Some examples of MATH-V on three subjects: analytic geometry, topology, and grap
     <img src="assets/examples/exam_graph.png" width="50%"> <br>
 </p></details>
 
-You can refer to the Appendix D.3 of [the paper](https://arxiv.org/pdf/2402.14804.pdf) for example images of 16 subjects.
+You can refer to the Appendix A.4 of [the paper](https://arxiv.org/pdf/2502.20808) for example images of 11 subjects.
 
 ## 🏆 Leaderboard
 
-The leaderboard is available [here](https://mathllm.github.io/mathvision/#leaderboard).
+The leaderboard is available [here](https://eternal8080.github.io/MV-MATH.github.io/).
 
 
 
