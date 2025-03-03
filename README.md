@@ -79,13 +79,13 @@ The leaderboard is available [here](https://eternal8080.github.io/MV-MATH.github
 
 `python models/API_model.py`
 
-This will run the GPT-4o/Claude-3.5-Sonnet/Gemini-1.5-pro/GPT-4v API and save the outputs to `./API_name.jsonl` path. You can modify the system prompt, max tokens, etc. .
+This will run the GPT-4o/Claude-3.5-Sonnet/Gemini-1.5-pro/GPT-4v API and save the outputs to `./API_name.jsonl` path. You can modify the system prompt, max tokens, etc.
 
 #### Claude_with_caption
 
 Generate image captions using Claude-3.5-Sonnet:
 
-`python models/Caption_Claude.py.py`
+`python models/Caption_Claude.py`
 
 Then you can use the generated merge data and image to inference.
 
