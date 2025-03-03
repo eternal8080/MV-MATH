@@ -10,7 +10,7 @@
 ![GPT-4V](https://img.shields.io/badge/Model-QvQ-green)
 ![Gemini](https://img.shields.io/badge/Model-Gemini-green)
 
-🌟  This is the official repository for the paper "[MV-MATH: Evaluating Multimodal Math Reasoning in Multi-Visual Contexts](https://arxiv.org/pdf/2502.20808)", which contains both evaluation code and data for the **MV-MATH** benchmark.
+🌟  This is the official repository for the paper "[MV-MATH: Evaluating Multimodal Math Reasoning in Multi-Visual Contexts](https://arxiv.org/abs/2502.20808)", which contains both evaluation code and data for the **MV-MATH** benchmark.
 
 [[🌐 Homepage](https://eternal8080.github.io/MV-MATH.github.io/)] [[🤗 Huggingface Dataset](https://huggingface.co/datasets/PeijieWang/MV-MATH)] [[📊 Leaderboard ](https://eternal8080.github.io/MV-MATH.github.io/)] [[🔍 Visualization](https://eternal8080.github.io/MV-MATH.github.io/)] [[📖 ArXiv Paper](https://arxiv.org/abs/2502.20808)]
 
@@ -42,7 +42,7 @@ Through extensive experimentation, we unveil a notable performance gap between c
 
 
 
-You can refer to our [project homepage](https://eternal8080.github.io/MV-MATH.github.io/) and [the paper](https://arxiv.org/pdf/2502.20808) for more details.
+You can refer to our [project homepage](https://eternal8080.github.io/MV-MATH.github.io/) and [the paper](https://arxiv.org/abs/2502.20808) for more details.
 
 ## 📐 Dataset Examples
 
@@ -115,9 +115,9 @@ If you find this benchmark useful in your research, please consider citing this 
 ```
 
 ## 🧠 Related Work
-- **[Survey🔥]** [From System 1 to System 2: A Survey of Reasoning Large Language Models](https://arxiv.org/abs/2502.17419)
-- **[CMMaTH🔥]** [CMMaTH: A Chinese Multi-modal Math Skill Evaluation Benchmark for Foundation Models](https://aclanthology.org/2025.coling-main.184/)
-- **[GeoEval🔥]** [GeoEval: Benchmark for Evaluating LLMs and Multi-Modal Models on Geometry Problem-Solving](https://eternal8080.github.io/GeoEval.github.io/)
-- **[Math-Vision]** [Measuring Multimodal Mathematical Reasoning with the MATH-Vision Dataset](https://github.com/mathllm/MATH-V)
-- **[MathVerse]** [MathVerse: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math Problems?](https://github.com/ZrrSkywalker/MathVerse)
-- **[MathVista]** [MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts](https://github.com/lupantech/MathVista)
+- **[Survey🔥🔥]** [From System 1 to System 2: A Survey of Reasoning Large Language Models](https://arxiv.org/abs/2502.17419)
+- **[CMMaTH🔥🔥]** [CMMaTH: A Chinese Multi-modal Math Skill Evaluation Benchmark for Foundation Models](https://aclanthology.org/2025.coling-main.184/)
+- **[GeoEval🔥🔥]** [GeoEval: Benchmark for Evaluating LLMs and Multi-Modal Models on Geometry Problem-Solving](https://eternal8080.github.io/GeoEval.github.io/)
+- **[Math-Vision🔥]** [Measuring Multimodal Mathematical Reasoning with the MATH-Vision Dataset](https://github.com/mathllm/MATH-V)
+- **[MathVerse🔥]** [MathVerse: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math Problems?](https://github.com/ZrrSkywalker/MathVerse)
+- **[MathVista🔥]** [MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts](https://github.com/lupantech/MathVista)
