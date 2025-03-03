@@ -20,7 +20,7 @@
 - **[2025-03-01]** 🔥🔥🔥 O1-like model **QVQ-72B-Preview** achieves **29.3%**, establishing itself as the new best-performing open-sourced model. 🎉 Congratulations!
 - **[2025-02-27]** Our dataset is now accessible at [huggingface](https://huggingface.co/datasets/PeijieWang/MV-MATH).
 - **[2025-02-27]** The top-performing model, **Claude-3.5-Sonnet** only scores **33.9%** on **MV-MATH**, while human performance is around **76%**.
-- **[2025-02-27]** **MV-MATH** is accepted by CVPR2025! 🎉🎉🎉
+- **[2025-02-27]** **MV-MATH** is accepted by **CVPR2025**! 🎉🎉🎉
 
 ## 👀 Introduction
 
