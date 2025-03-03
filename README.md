@@ -42,25 +42,25 @@ Through extensive experimentation, we unveil a notable performance gap between c
 
 
 
-You can refer to our [project homepage](https://mathllm.github.io/mathvision/) and [the paper](https://arxiv.org/pdf/2402.14804.pdf) for more details.
+You can refer to our [project homepage](https://eternal8080.github.io/MV-MATH.github.io/) and [the paper](https://arxiv.org/pdf/2502.20808) for more details.
 
 ## 📐 Dataset Examples
 
-Some examples of MATH-V on three subjects: analytic geometry, topology, and graph theory.
+Some examples of MV-MATH on three subjects: analytic geometry, topology, and graph theory.
 
 <details>
-<summary>Analytic geometry</summary><p align="center">
-    <img src="assets/examples/exam_analytic_geo.png" width="50%"> <br>
+<summary>Solid Geometry</summary><p align="center">
+    <img src="assets/examples/solid_geometry.png" width="50%"> <br>
 </p></details>
 
 <details>
-<summary>Topology</summary><p align="center">
-    <img src="assets/examples/exam_topology.png" width="50%"> <br>
+<summary>Analytic Geometry</summary><p align="center">
+    <img src="assets/examples/Analytic_Geometry.png" width="50%"> <br>
 </p></details>
 
 <details>
-<summary>Graph Geometry</summary><p align="center">
-    <img src="assets/examples/exam_graph.png" width="50%"> <br>
+<summary>Algebra</summary><p align="center">
+    <img src="assets/examples/algebra.png" width="50%"> <br>
 </p></details>
 
 You can refer to the Appendix A.4 of [the paper](https://arxiv.org/pdf/2502.20808) for example images of 11 subjects.
@@ -75,51 +75,49 @@ The leaderboard is available [here](https://eternal8080.github.io/MV-MATH.github
 
 ### Generating Outputs of Different Models
 
-#### Gemini
+#### API MODEL
 
-`python models/Gemini.py --in_path ./data/test.jsonl --save_path ./Gemini.jsonl`
+`python models/API_model.py`
 
-This will run the Gemini API and save the outputs to `./Gemini.jsonl` path. You can modify the system prompt, max tokens, etc. in the `benchmark_gemini` function.
+This will run the GPT-4o/Claude-3.5-Sonnet/Gemini-1.5-pro/GPT-4v API and save the outputs to `./API_name.jsonl` path. You can modify the system prompt, max tokens, etc. .
 
-#### GPT_with_caption
+#### Claude_with_caption
 
-Generate image captions using GPT-4V:
+Generate image captions using Claude-3.5-Sonnet:
 
-`python models/GPT_with_caption.py --model gpt-4-vision-preview --in_path ./data/test.jsonl --save_path ./data/gpt4v-captions.jsonl`
+`python models/Caption_Claude.py.py`
 
-Generate outputs using ChatGPT-3.5 or GPT-4 with image captions:
+Then you can use the generated merge data and image to inference.
 
-`python models/GPT_with_caption.py --model gpt-3.5-turbo-0125 (gpt-4-turbo-preview) --in_path ./data/test.jsonl --save_path ./gpt3.5_caption.jsonl (./gpt4_caption.jsonl)`
 
 
 
 ### Evaluation of Model Outputs
 
-Once all the model outputs have been generated, execute the `python evaluation/evaluate.py` function to assess these outputs. This script will examine all outputs located in the `outputs/` directory, computing overall accuracy as well as accuracy for each subject and level.
+Once all the model outputs have been generated, execute the `python evaluation/evaluate_choice.py` function to assess these outputs. This script will examine all outputs located in the `outputs/` directory, computing overall accuracy as well as accuracy for each subject and level.
 
-You can refer to the Appendix E and F of [the paper](https://arxiv.org/pdf/2402.14804.pdf) for some evaluation results of the above models.
+You can refer to the Appendix H of [the paper](https://arxiv.org/pdf/2502.20808) for some evaluation results of the above models and case study.
 
 ## 📝 Citation
 
 If you find this benchmark useful in your research, please consider citing this BibTex:
 
 ```
-@inproceedings{
-    wang2024measuring,
-    title={Measuring Multimodal Mathematical Reasoning with MATH-Vision Dataset},
-    author={Ke Wang and Junting Pan and Weikang Shi and Zimu Lu and Houxing Ren and Aojun Zhou and Mingjie Zhan and Hongsheng Li},
-    booktitle={The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
-    year={2024},
-    url={https://openreview.net/forum?id=QWTCcxMpPA}
+@misc{wang2025mvmathevaluatingmultimodalmath,
+      title={MV-MATH: Evaluating Multimodal Math Reasoning in Multi-Visual Contexts}, 
+      author={Peijie Wang and Zhongzhi Li and Fei Yin and Dekang Ran and Chenglin Liu},
+      year={2025},
+      eprint={2502.20808},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2502.20808}, 
 }
 ```
 
 ## 🧠 Related Work
-
-- **[CSV🔥]** [Solving Challenging Math Word Problems Using GPT-4 Code Interpreter with Code-based Self-Verification](https://wangk.org/publications/1_iclr2024_csv/)
-- **[MathGenie]** [MathGenie: Generating Synthetic Data with Question Back-translation for Enhancing Mathematical Reasoning of LLMs](https://github.com/MathGenie/MathGenie)
-- **[MathCoder🔥]** [MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning](https://github.com/mathllm/MathCoder)
+- **[Survey🔥]** [From System 1 to System 2: A Survey of Reasoning Large Language Models](https://arxiv.org/abs/2502.17419)
+- **[CMMaTH🔥]** [CMMaTH: A Chinese Multi-modal Math Skill Evaluation Benchmark for Foundation Models](https://aclanthology.org/2025.coling-main.184/)
+- **[GeoEval🔥]** [GeoEval: Benchmark for Evaluating LLMs and Multi-Modal Models on Geometry Problem-Solving](https://github.com/MathGenie/MathGenie)
+- **[Math-Vision]** [Measuring Multimodal Mathematical Reasoning with the MATH-Vision Dataset](https://github.com/mathllm/MATH-V)
 - **[MathVerse]** [MathVerse: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math Problems?](https://github.com/ZrrSkywalker/MathVerse)
 - **[MathVista]** [MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts](https://github.com/lupantech/MathVista)
-- **[SPHINX]** [The Joint Mixing of Weights, Tasks, and Visual Embeddings for Multi-modal LLMs](https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX)
-- **[SPHINX-X]** [Scaling Data and Parameters for a Family of Multi-modal Large Language Models](https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX)

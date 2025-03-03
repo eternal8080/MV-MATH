@@ -1,0 +1,44 @@
+[
+    {
+        "problem_id": 1,
+        "question": "Cut the rhombus in Figure 1 along its diagonal into four congruent right-angled triangles, and assemble these four right-angled triangles into the squares shown in Figure 2 and Figure 3. The area of the rhombus in Figure 1 is ( )\n\n\n\nFigure 1\n\n\n\nFigure 2\n\n\n\nFigure 3\nA. 10\nB. 12\nC. 24\nD. 25\n<image_1>",
+        "input_image_merge": "data/merge/1109_merged_images/307_merged.jpg",
+        "input_image_origin": [
+            "input_image/batch23-2024_06_14_54c3b9b2253259a41820g_0032_1.jpg",
+            "input_image/batch23-2024_06_14_54c3b9b2253259a41820g_0032_2.jpg",
+            "input_image/batch23-2024_06_14_54c3b9b2253259a41820g_0032_3.jpg"
+        ],
+        "is_multi_img": true,
+        "answer": "B",
+        "answer_type": "choice",
+        "analysis": "$\\because$ quadrilateral $\\mathrm{ABCD}$ is a rhombus,\n\n$\\therefore \\mathrm{OA}=\\mathrm{OC}, \\mathrm{OB}+\\mathrm{OD}, \\mathrm{AC} \\perp \\mathrm{BD}$,\n\nSuppose $\\mathrm{OA}=\\mathrm{x}, \\mathrm{OB}=\\mathrm{y}$,\n\nFrom the question: $\\left\\{\\begin{array}{l}x+y=5 \\\\ x-y=1\\end{array}\\right.$, solution: $\\left\\{\\begin{array}{l}x=3 \\\\ y=2\\end{array}\\right.$,\n\n$\\therefore \\mathrm{AC}=2 \\mathrm{OA}=6, \\quad \\mathrm{BD}=2 \\mathrm{OB}=4$,\n\n$\\therefore$ the area of ​​rhombus $=\\frac{1}{2} A C \\times B D=\\frac{1}{2} \\times 4 \\times 6=12$.\n\nSo choose B.\n\n<image_4>\n\nThe key to solving the problem is to understand that the diagonals of a rhombus are perpendicular to each other and the area formula of a rhombus.",
+ 
+    },
+    {
+        "problem_id": 2,
+        "question": "For a graph with a fixed position, if all its points are inside or on the edges of a horizontally placed rectangle, and the graph has at least one common point with each side of the rectangle (as shown in Figure 1), then the length of the horizontal side of the rectangle is called the width of the graph, and the length of the vertical side is called the height. As shown in Figure 2, given a rhombus $A B C D$ with side length 1, where side $A B$ is horizontally placed, if the height of the rhombus is $\\frac{2}{3}$ of its width, then the width of the rhombus is ( )\n\n\n\nFigure 1\n\n\n\nFigure 2\nA. $\\frac{18}{13}$\nB. $\\frac{13}{9}$\nC. $\\frac{3}{2}$\nD. 2\n<image_1>",
+        "input_image_merge": "data/merge/1109_merged_images/308_merged.jpg",
+        "input_image_origin": [
+            "input_image/batch23-2024_06_14_586e379e448e55a909b0g_0088_1.jpg",
+            "input_image/batch23-2024_06_14_586e379e448e55a909b0g_0088_2.jpg"
+        ],
+        "is_multi_img": true,
+        "answer": "A",
+        "answer_type": "choice",
+        "analysis": "Solution: Create a rectangle $E A F C$ on the rhombus as shown in the figure,\n\nLet $A F=x$, then $C F=\\frac{2}{3} x$,\n\nIn Rt $\\triangle C B F$, $C B=1, B F=x-1$,\n\nAccording to the Pythagorean theorem: $B C^{2}=B F^{2}+C F^{2}$,\n\n$1^{2}=(x-1)^{2}+\\left(\\frac{2}{3} x\\right)^{2}$,\n\nThe solution is: $x=\\frac{18}{13}$ or 0 (discard),\n\nThen the width of the rhombus is $\\frac{18}{13}$,\n\nSo choose A.\n\n<image_3>\n\nFigure 2\n\n【Key Point】This question examines the new definition, the properties of rectangles and rhombuses, and the Pythagorean theorem. Understanding the width and height of the rectangle in the new definition is the key.",
+
+    },
+    {
+        "problem_id": 3,
+        "question": "Tangram is an ancient Chinese traditional intellectual toy, known as the 'Oriental Magic Board'. A student used the relationship between the side lengths of each board in the tangram (as shown in Figure 1) to form a convex hexagon (as shown in Figure 2). The perimeter of the convex hexagon is ( )\n\n\n\nFigure 1\n\n\n\nFigure 2\nA. $120 \\mathrm{~cm}$\nB. $120 \\sqrt{2} \\mathrm{~cm}$\nC. $(40 \\sqrt{2}+80) \\mathrm{cm}$\nD. $(80 \\sqrt{2}+40) \\mathrm{cm}$\n\n\n<image_1>",
+        "input_image_merge": "data/merge/1109_merged_images/309_merged.jpg",
+        "input_image_origin": [
+            "input_image/batch23-2024_06_14_6017bdeaa8de696f18f7g_0035_1.jpg",
+            "input_image/batch23-2024_06_14_6017bdeaa8de696f18f7g_0035_2.jpg"
+        ],
+        "is_multi_img": true,
+        "answer": "D",
+        "answer_type": "choice",
+        "analysis": "$\\because$ the quadrilateral is a square\n\n$\\therefore$ the length of the right angle sides of (1)(7) are all $20 \\sqrt{2} \\mathrm{~cm}$,\n\nthe short side of (2) is $10 \\sqrt{2} \\mathrm{~cm}$\n\nthe right angle side of (3) is $10 \\sqrt{2} \\mathrm{~cm}$\n\nthe side length of (4) is $10 \\sqrt{2} \\mathrm{~cm}$\n\nthe right angle side of (5) is $20 \\mathrm{~cm}$\n\nthe hypotenuse of (6) is $20 \\mathrm{~cm}$\n\n$\\therefore$ the perimeter of the convex hexagon is\n\n$20 \\sqrt{2}+20 \\sqrt{2}+20+10 \\sqrt{2}+10 \\sqrt{2}+10 \\sqrt{2}+10 \\sqrt{2}+20=(80 \\sqrt{2}+40) m$\n\nSo the answer is: D.\n\n【Key Point】This question mainly tests the properties of the square and the Pythagorean theorem. Being able to find the length of each side is the key to solving the problem."
+    }
+]

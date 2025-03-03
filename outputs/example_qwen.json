@@ -1,0 +1,50 @@
+[
+    {
+        "problem_id": 1,
+        "question": "Among the following diagrams, which one is NOT an unfolding pattern of a cube's surface?\nA.\n\n<image_1>\nB.\n\n<image_2>\nC.\n\n<image_3>\nD.\n\n<image_4>",
+        "input_image": [
+            "input_image/batch10-2024_06_14_a3c25c228bc66efc7ebcg_0081_1.jpg",
+            "input_image/batch10-2024_06_14_a3c25c228bc66efc7ebcg_0081_2.jpg",
+            "input_image/batch10-2024_06_14_a3c25c228bc66efc7ebcg_0081_3.jpg",
+            "input_image/batch10-2024_06_14_a3c25c228bc66efc7ebcg_0081_4.jpg"
+        ],
+        "response": "Answer: {C}",
+        "model_answer": "C",
+        "standard_answer": "D",
+        "is_correct": false
+    },
+    {
+        "problem_id": 2,
+        "question": "Among the following figures, which one is an unfolded net of a cube?\nA.\n\n<image_1>\nB.\n\n<image_2>\nC.\n\n<image_3>\nD.\n\n<image_4>",
+        "input_image": [
+            "input_image/batch25-2024_06_17_2eea509d719aacf4fdebg_0088_1.jpg",
+            "input_image/batch25-2024_06_17_2eea509d719aacf4fdebg_0088_2.jpg",
+            "input_image/batch25-2024_06_17_2eea509d719aacf4fdebg_0088_3.jpg",
+            "input_image/batch25-2024_06_17_2eea509d719aacf4fdebg_0088_4.jpg"
+        ],
+        "response": "Answer: {B}",
+        "model_answer": "B",
+        "standard_answer": "B",
+        "is_correct": true
+    },
+    {
+        "problem_id": 3,
+        "question": "As shown in the figure, if the cube is unfolded, which of the following patterns can be obtained?\n\n<image_1>\nA.\n\n<image_2>\nB.\n\n<image_3>\nC.\n\n<image_4>\nD.\n\n<image_5>",
+        "input_image": [
+            "input_image/batch10-2024_06_14_3a73c762f5eb2b761854g_0086_1.jpg",
+            "input_image/batch10-2024_06_14_3a73c762f5eb2b761854g_0086_2.jpg",
+            "input_image/batch10-2024_06_14_3a73c762f5eb2b761854g_0086_3.jpg",
+            "input_image/batch10-2024_06_14_3a73c762f5eb2b761854g_0086_4.jpg",
+            "input_image/batch10-2024_06_14_3a73c762f5eb2b761854g_0086_5.jpg"
+        ],
+        "response": "Answer: {}",
+        "model_answer": "none",
+        "standard_answer": "D",
+        "is_correct": false
+    },
+    {
+        "total_questions": 3,
+        "correct_answers": 1,
+        "accuracy": 0.3333
+    }
+]
