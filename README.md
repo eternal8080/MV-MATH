@@ -28,16 +28,15 @@ MV-MATH is a meticulously annotated dataset designed to evaluate the mathematica
 
 MV-MATH is organized into 11 subjects over 3 difficulty levels, including Analytic Geometry, Algebra, Metric Geometry, Combinatorics, Transformation Geometry, Logic, Solid Geometry, Arithmetic, Combinatorial Geometry, Descriptive Geometry and Statistics, covering a range of scenarios from the K-12 mathematics curriculum.
 
-Based on image relevance, we categorize MV-MATH into two subsets: a mutually dependent set (MD), where images are interrelated and understanding one image necessitates information from another; and an independent set (ID), where images are unrelated and can be interpreted independently without reference to other images.
+Based on image relevance, we categorize MV-MATH into two subsets: a **mutually dependent set (MD)**, where images are interrelated and understanding one image necessitates information from another; and an **independent set (ID)**, where images are unrelated and can be interpreted independently without reference to other images.
 
 
 <p align="center">
-    <img src="assets/figures/figure1_new.png" width="100%"> <br>
-  The accuracies of four prominent Large Multimodal Models (LMMs), random chance, and human
-performance are evaluated on our proposed <b>MATH-Vision (MATH-V)</b> across 16 subjects.
+    <img src="assets/figures/lidia.jpg" width="100%"> <br>
+  The accuracies of 6 prominent Multimodal Large Multimodal Models (MLMMs) are evaluated on our proposed <b>MV-MATH</b> across 11 subjects.
 </p>
 
-Through extensive experimentation, we unveil a notable performance gap between current LMMs and human performance on MATH-V, underscoring the imperative for further advancements in LMMs.
+Through extensive experimentation, we unveil a notable performance gap between current MLMMs and human performance on MV-MATH, underscoring the imperative for further advancements in MLMMs.
 
 
 
