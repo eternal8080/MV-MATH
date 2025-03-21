@@ -84,6 +84,7 @@ def filter_and_extract_answers_parallel(input_file, output_file, standard_file, 
     # 生成最终结果并写入输出文件
     summary = {
         "total_questions": len(results),
+        "complete_correct_questions": complete_correct_questions,
         "total_correct_steps": total_correct_steps,
         "total_steps": total_steps,
         "Step_Accuracy_Rate": Step_Accuracy_Rate,
