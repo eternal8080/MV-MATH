@@ -94,7 +94,7 @@ Then you can use the generated merge data and image to inference.
 
 ### Evaluation of Model Outputs
 
-Once all the model outputs have been generated, execute the `python evaluation/evaluate_choice.py` function to assess these outputs. This script will examine all outputs located in the `outputs/` directory, computing overall accuracy as well as accuracy for each subject and level.
+Once all the model outputs have been generated, execute the `python evaluation/evaluate_choice.py`  `python evaluation/evaluate_freeform.py` `python evaluation/evaluate_freeform.py`function to assess these outputs, and the run `python evaluation/merge_score.py`. This script will examine all outputs located in the `outputs/` directory, computing overall accuracy.
 
 You can refer to the Appendix H of [the paper](https://arxiv.org/pdf/2502.20808) for some evaluation results of the above models and case study.
 
