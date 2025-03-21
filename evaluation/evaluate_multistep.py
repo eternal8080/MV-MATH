@@ -60,10 +60,10 @@ def filter_and_extract_answers_parallel(input_file, output_file, standard_file, 
         results = list(tqdm(pool.starmap(process_problem, [(problem, standard_answers) for problem in problems]),
                             total=len(problems), desc="Processing problems"))
 
-   # 统计正确步骤总数和步骤总数 + 完整正确题目的数量
+   # Count the total number of correct steps and the total number of steps + the number of complete correct questions
     total_correct_steps = 0
     total_steps = 0
-    complete_correct_questions = 0  # 完全正确题目计数
+    complete_correct_questions = 0  # Completely correct question count
 
     for result in results:
         is_correct = result["is_correct"]
@@ -81,7 +81,7 @@ def filter_and_extract_answers_parallel(input_file, output_file, standard_file, 
     Question_Completeness_Rate = complete_correct_questions / len(results) if results else 0
 
 
-    # 生成最终结果并写入输出文件
+    # Generate final results and write to output file
     summary = {
         "total_questions": len(results),
         "complete_correct_questions": complete_correct_questions,
