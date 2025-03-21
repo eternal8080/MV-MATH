@@ -105,8 +105,8 @@ def check_answer_correctness(standard_answer, response):
 # main
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Score the answers JSONL file.")
-    parser.add_argument("--response-file", type=str, help="Path to the response JSONL file.", default="Path/to/response/JSONL")
-    parser.add_argument("--output-file", type=str, help="Path to the output comparison JSON file.", default="Path/to/output/JSON")
+    parser.add_argument("--response-file", type=str, help="Path to the response JSONL file.", default="Path/to/response/freeform/JSONL")
+    parser.add_argument("--output-file", type=str, help="Path to the output evaluation JSON file.", default="Path/to/output/evaluation/freeform/JSON")
     parser.add_argument("--standard-file", type=str, help="Path to the standard answers JSON file.", default="Path/to/standard/JSON")
     args = parser.parse_args()
 
