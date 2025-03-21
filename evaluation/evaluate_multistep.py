@@ -60,23 +60,34 @@ def filter_and_extract_answers_parallel(input_file, output_file, standard_file, 
         results = list(tqdm(pool.starmap(process_problem, [(problem, standard_answers) for problem in problems]),
                             total=len(problems), desc="Processing problems"))
 
+   # 统计正确步骤总数和步骤总数 + 完整正确题目的数量
     total_correct_steps = 0
     total_steps = 0
+    complete_correct_questions = 0  # 完全正确题目计数
+
     for result in results:
         is_correct = result["is_correct"]
         if is_correct:
-            correct, steps = map(int, is_correct.split('/'))
-            total_correct_steps += correct
-            total_steps += steps
+            try:
+                correct, steps = map(int, is_correct.split('/'))
+                total_correct_steps += correct
+                total_steps += steps
+                if correct == steps:
+                    complete_correct_questions += 1
+            except ValueError:
+                print(f"Invalid is_correct format in result: {result['problem_id']} -> {is_correct}")
 
-    accuracy = total_correct_steps / total_steps if total_steps > 0 else 0
+    Step_Accuracy_Rate = total_correct_steps / total_steps if total_steps > 0 else 0
+    Question_Completeness_Rate = complete_correct_questions / len(results) if results else 0
 
-    # add summary
+
+    # 生成最终结果并写入输出文件
     summary = {
         "total_questions": len(results),
         "total_correct_steps": total_correct_steps,
         "total_steps": total_steps,
-        "accuracy": accuracy
+        "Step_Accuracy_Rate": Step_Accuracy_Rate,
+        "Question_Completeness_Rate": Question_Completeness_Rate,
     }
     results.append(summary)
 
