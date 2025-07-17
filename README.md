@@ -10,7 +10,7 @@
 ![GPT-4V](https://img.shields.io/badge/Model-QvQ-green)
 ![Gemini](https://img.shields.io/badge/Model-Gemini-green)
 
-🌟  This is the official repository for the paper "[MV-MATH: Evaluating Multimodal Math Reasoning in Multi-Visual Contexts](https://arxiv.org/abs/2502.20808)", which contains both evaluation code and data for the **MV-MATH** benchmark.
+🌟  This is the official repository for the paper "[MV-MATH: Evaluating Multimodal Math Reasoning in Multi-Visual Contexts](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_MV-MATH_Evaluating_Multimodal_Math_Reasoning_in_Multi-Visual_Contexts_CVPR_2025_paper.html)", which contains both evaluation code and data for the **MV-MATH** benchmark.
 
 [[🌐 Homepage](https://eternal8080.github.io/MV-MATH.github.io/)] [[🤗 Huggingface Dataset](https://huggingface.co/datasets/PeijieWang/MV-MATH)] [[📊 Leaderboard ](https://eternal8080.github.io/MV-MATH.github.io/)] [[🔍 Visualization](https://eternal8080.github.io/MV-MATH.github.io/)] [[📖 ArXiv Paper](https://arxiv.org/abs/2502.20808)]
 
@@ -103,14 +103,12 @@ You can refer to the Appendix H of [the paper](https://arxiv.org/pdf/2502.20808)
 If you find this benchmark useful in your research, please consider citing this BibTex:
 
 ```
-@misc{wang2025mvmathevaluatingmultimodalmath,
-      title={MV-MATH: Evaluating Multimodal Math Reasoning in Multi-Visual Contexts}, 
-      author={Peijie Wang and Zhongzhi Li and Fei Yin and Dekang Ran and Chenglin Liu},
-      year={2025},
-      eprint={2502.20808},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2502.20808}, 
+@inproceedings{wang2025mv,
+  title={Mv-math: Evaluating multimodal math reasoning in multi-visual contexts},
+  author={Wang, Peijie and Li, Zhong-Zhi and Yin, Fei and Ran, Dekang and Liu, Cheng-Lin},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={19541--19551},
+  year={2025}
 }
 ```
 
