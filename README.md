@@ -15,9 +15,9 @@
 [[🌐 Homepage](https://eternal8080.github.io/MV-MATH.github.io/)] [[🤗 Huggingface Dataset](https://huggingface.co/datasets/PeijieWang/MV-MATH)] [[📊 Leaderboard ](https://eternal8080.github.io/MV-MATH.github.io/)] [[🔍 Visualization](https://eternal8080.github.io/MV-MATH.github.io/)] [[📖 ArXiv Paper](https://arxiv.org/abs/2502.20808)]
 
 ## 💥 News
-
+- **[2025-07-21]** 🌟 **Qwen-VL-Max** achieves a strong **42.4%**, 🎯**Seed1.5-VL (thinking)** achieves a stunning **72.9%** on **MV-MATH**, setting a new **SOTA**. 🎉 Congratulations!
 - **[2025-03-01]** 🚀🚀🚀 See this page for the [homepage](https://eternal8080.github.io/MV-MATH.github.io/) pf **MV-MATH**
-- **[2025-03-01]** 🔥🔥🔥 O1-like model **QVQ-72B-Preview** achieves **29.3%**, establishing itself as the new best-performing open-sourced model. 🎉 Congratulations!
+- **[2025-03-01]** O1-like model **QVQ-72B-Preview** achieves **29.3%**, establishing itself as the new best-performing open-sourced model. 🎉 Congratulations!
 - **[2025-02-27]** Our dataset is now accessible at [huggingface](https://huggingface.co/datasets/PeijieWang/MV-MATH).
 - **[2025-02-27]** The top-performing model, **Claude-3.5-Sonnet** only scores **33.9%** on **MV-MATH**, while human performance is around **76%**.
 - **[2025-02-27]** **MV-MATH** is accepted by **CVPR2025**! 🎉🎉🎉
